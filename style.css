@@ -1,0 +1,458 @@
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+body {
+  margin: 0;
+}
+main {
+  display: block;
+}
+
+
+
+
+/* ---------------------------------------- HEADER -------------------------------------- */
+
+
+.container {
+  
+  /* background-color: rgba(180, 226, 255, 0.3);  /*Подкраска контейнера для всяческих манипуляций */
+  box-sizing: border-box; /* делает так, что значение max-width задаёт ширину всего элемента включая размеры padding-ов. */
+  max-width: 60em;  
+  
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+  position: relative;
+   
+ }
+                                       
+
+.main {
+  background-image: url(img/Plane-background-inv.jpg); 
+  background-position: center; 
+  background-size: cover;
+  margin: 0;
+  padding-bottom: 20px;}
+
+.headerElements { 
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;}
+
+
+.headerElement {
+  flex-shrink: 0;
+  flex-basis: content;
+  box-sizing: border-box;
+  display: block;}
+
+
+
+.menu {
+  font-size: 14pt;
+  color: #1A295E;}
+
+.menu:hover {color:rgba(238, 73, 0, 1);}
+
+#p0-1, #p0-2 {font-size: 12pt;
+  color: #202536;}
+
+.container .header {  
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 56.875rem;
+  /* width: 910px; */
+  height: 84px;
+  border-radius: 42px;
+
+  background-color: white;
+  -moz-box-shadow: 0 2px 7px 0 rgba(65, 65, 65, 0.65);
+  -webkit-box-shadow: 0 2px 7px 0 rgba(65, 65, 65, 0.65);
+  box-shadow: 0 2px 7px 0 rgba(65, 65, 65, 0.65);
+
+  text-align: center;
+
+  position: fixed; 
+  z-index: 100; /* чтобы при позиционировании шапка была над остальными элементами */
+}
+
+                                       /* ---------------------------------------- HEADER -------------------------------------- */
+.content {
+  padding-top: 90px;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.p1 {
+  text-align: center;
+  color: #1A295E;
+  font-size: 28pt;
+}
+
+
+.p2 {
+  color: #F25700;
+  font-size: 21pt;
+}
+
+.p3 {
+  color: #1A295E;
+  font-size: 18pt;
+}
+
+.separator {
+  background-color: #041B88;
+  height: 70px;
+  width: 100%;
+  color: #E4E9FF;
+  text-align: center;
+  margin: 0;
+  position: relative   /* Сделайте контейнер относительно позиционированным (position: relative), что превратит его в контейнер для абсолютно позиционированных элементов. */
+}
+
+.separator .Servises-sep {margin: 0}
+
+.separator h1 {
+  
+  margin: 0;
+  position: absolute;               /* Сам элемент сделайте абсолютно позиционированным (position: absolute). */
+  top: 50%;  
+  left: 50%;
+    margin-right: -50%;                 /* Поместите элемент посередине контейнера с помощью 'top: 50%'. 
+    (Заметьте, что '50%' здесь означают 50% высоты контейнера.) */
+    transform: translate(-50%, -50%);     /* Используйте translate, чтобы переместить элемент вверх на половину своей собственной высоты.
+     ( '50%' в 'translate(0, -50%)' указывают на высоту самого элемента.) */ 
+}
+
+.information {   background-color: #f4f3f8;} 
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  flex-wrap: wrap; 
+  
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+
+}
+
+
+.service {
+
+  background-color: white;
+
+  position:relative;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  flex-basis: 150px; 
+  /*flex-basis: content;*/
+  box-sizing: border-box;
+  margin-bottom: 30px; 
+
+  width: 150px;
+  height: 150px; 
+  
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 10px 10px;
+  border: none;
+  border-style: none; 
+	border-width: none;
+  border-radius: 3px; /* 16px */
+  overflow: hidden; /* прячем всё, что находится за пределами области */
+
+  -moz-box-shadow: 0 2px 7px 0 rgba(65, 65, 65, 0.65);
+  -webkit-box-shadow: 0 2px 7px 0 rgba(65, 65, 65, 0.65);
+  box-shadow: 0 2px 7px 0 rgba(65, 65, 65, 0.65);
+  cursor: pointer;
+  transition:  box-shadow 0.3s 	ease-in;
+}
+
+.service img {
+  width: 150px;
+  height: 150px;
+  max-height: 150;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute; /* абсолютное позиционирование*/
+  left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
+  top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
+  object-fit: cover; /* Вписываем фотографию в область */
+  transition: all 0.3s ease;
+}
+
+.service img.second { /* вторая картинка полностью прозрачная */
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+
+
+.service:hover img.second { /* при наведении курсора вторая картинка становится не прозрачной */
+  opacity:1;
+  filter:alpha (opacity=100);
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.service:hover img.first, .service img.first:hover, .service img.first:active { /* а первая при наведении курсора становится прозрачной */
+  opacity:0;
+  filter:alpha (opacity=0);
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.service:hover {
+
+  -moz-box-shadow: 0 0 10px 0 rgba(238, 73, 0, 1);
+  -webkit-box-shadow: 0 0 10px 0 rgba(238, 73, 0, 1);
+  box-shadow: 0 0 10px 0 rgba(238, 73, 0, 1);
+  transition:  box-shadow 0.2s 	ease-in;
+
+
+  border: none;
+  border-style: none; 
+  border-width: none;
+  
+}
+
+
+.service:active {
+
+  -moz-box-shadow: inset 0 0 6px rgba(65, 65, 65, 0.65); 
+  -webkit-box-shadow: inset 0 0 6px rgba(65, 65, 65, 0.65);
+  box-shadow: inset 0 0 6px rgba(65, 65, 65, 0.65);
+  transition:  box-shadow 0.2s 	ease-in;
+
+  border: none;
+  border-style: none; 
+	border-width: none;
+}
+
+table { 
+  padding: 10px;
+  margin: auto;
+  font-size: 14pt; 
+}
+        
+
+.tr-ch {background-color: #ebedf3;} 
+.tr-nch {background-color: #dce0ec;} 
+
+
+th, td {padding: 10px 15px;}
+
+tr:hover { background-color: rgb(255, 217, 111);
+  transition:  background-color 0.1s 	ease-in;
+  cursor: pointer;
+
+}
+
+/*
+.contacts-backgound {
+  background-image: url(img/Background-04.svg);
+  background-size: 200px, auto; 
+  background-repeat: repeat;
+  
+} */
+
+.contacts {display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  flex-wrap: wrap; 
+  
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;}
+
+  .contact {position:relative;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 30px; 
+    display: block;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+h2 {color: #1A295E;}
+
+.contact p {color: #1A295E;
+  font-size: 14pt;}
+
+
+abbr {text-decoration: none;}
+
+.yamap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  }  
+
+
+.history {
+
+  background-color: #f4f3f8;
+  display: flex;
+  flex-flow: row nowrap;
+  
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;}
+
+    
+.story {display: inline-flex;}
+
+
+.story  p {color: #1A295E;
+    column-count: 2;
+    column-width: 45%;
+    font-size: 18pt; 
+  }
+
+
+
+/* ---------------------------------------- FOOTER -------------------------------------- */
+
+footer {
+  background-color: #323a5f; 
+  background-image: url(img/plane-original-0.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 18rem, auto; /* 18rem - для ноута */
+  }   
+
+
+.footerinf {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding-left: 5rem;  
+}
+
+.footerinf1 { margin: 15px;}
+
+.footerinf1 p { color: #fffffd;}
+
+.footerinf1 h4 { color: #fffeff;}
+
+
+.mail-light {color: #ebefff;}
+
+.mail-light:hover {color: #dce3ff;}
+
+.mail-dark {color: #0d2a91;}
+
+.mail-dark:hover {color: #3152c9;}
+
+
+#copyright
+{  background-color: #323a5f; 
+  /*background-color: #8a33a5; */ /* Для быстрого теста */
+  text-align: center;
+  color: #ebefff;
+  font-size: 12pt;
+  padding-bottom: 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin: 0; /* Довести фон до конца страницы */
+  }
+
+  #copyright a {color: #d0d9fd;}
+
+  #copyright a:hover  {color:rgb(232, 238, 247);}
+
+
+
+
+
+#serv,
+#cont,
+#history {
+    border-top: 84px solid transparent;
+    margin-top: -84px;
+    background-clip: padding-box;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+  /*.container .header {   
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 36.875rem; }  */
+
+
+  footer {
+    background-image: none; 
+    }
+    .footerinf {padding-left: 0;
+                padding-right: 0;
+                margin: 0;}
+
+}
+
+
+@media screen and (min-width: 1119px) { /* 1120 % ноут */
+  footer {
+    background-size: 14rem, auto; 
+    }
+    .footerinf {padding-left: 7rem;}
+    #copyright  { margin-left: 300px;
+      margin-right: 300px;}
+}
+
+@media screen and (min-width: 1250px) {
+  footer {
+    background-size: 16rem, auto; 
+    }
+    .footerinf {padding-left: 6rem;}
+
+}
+
+@media screen and (min-width: 1400px) {
+  footer {
+    background-size: 18rem, auto; 
+    }
+    .footerinf {padding-left: 5rem;}
+}
+
+@media screen and (min-width: 1500px) {
+  footer {
+    background-size: 19rem, auto; 
+    }
+    .footerinf {padding-left: 4rem;}
+}
+
+@media screen and (min-width: 1600px) {
+  footer {
+    background-size: 20rem, auto; 
+    }
+    .footerinf {padding-left: 3rem;}
+}
