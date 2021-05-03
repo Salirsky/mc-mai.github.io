@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:#FFFFFF;stroke:#041B88;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;}
+	.st2{fill:#041B88;}
+	.st3{font-family:'Consolas';}
+	.st4{font-size:32px;}
+	.st5{fill:#FFFFFF;stroke:#041B88;stroke-width:4;stroke-miterlimit:10;}
+	.st6{fill:#FFFFFF;stroke:#041B88;stroke-width:3;stroke-miterlimit:10;}
+	.st7{fill:#FFFFFF;stroke:#041B88;stroke-width:1.5;stroke-miterlimit:10;}
+</style>
+<g id="Слой_1">
+	<line class="st0" x1="0" y1="0" x2="250" y2="250"/>
+	<line class="st0" x1="0" y1="250" x2="250" y2="0"/>
+	<rect y="15.9" class="st1" width="250" height="25"/>
+	<text transform="matrix(1 0 0 1 37.0309 37.9327)" class="st2 st3 st4">БРОШЮРОВКА</text>
+</g>
+<g id="Слой_2">
+	<path class="st5" d="M83.9,225H170c2.8,0,5-2.2,5-5V82.2c0-2.8-2.2-5-5-5H83.9c-2.8,0-5,2.2-5,5V220C78.9,222.8,81.2,225,83.9,225z
+		"/>
+	<path class="st5" d="M76.3,231.5h86.1c2.8,0,5-2.2,5-5V88.7c0-2.8-2.2-5-5-5H76.3c-2.8,0-5,2.2-5,5v137.8
+		C71.3,229.3,73.5,231.5,76.3,231.5z"/>
+	<line class="st5" x1="150.6" y1="157.6" x2="84.6" y2="157.6"/>
+	<line class="st5" x1="150.6" y1="125.3" x2="84.6" y2="125.3"/>
+	<line class="st5" x1="150.6" y1="190" x2="84.6" y2="190"/>
+	<path class="st5" d="M76,231.5h86.1c2.8,0,5-2.2,5-5V88.7c0-2.8-2.2-5-5-5H76c-2.8,0-5,2.2-5,5v137.8C71,229.3,73.2,231.5,76,231.5
+		z"/>
+	<line class="st6" x1="72.5" y1="84.5" x2="81.6" y2="77.1"/>
+	<line class="st5" x1="164.7" y1="86.1" x2="173.2" y2="78.3"/>
+	<line class="st6" x1="165.6" y1="231.1" x2="174.7" y2="223"/>
+	<line class="st5" x1="150.1" y1="145.4" x2="88.6" y2="145.4"/>
+	<line class="st5" x1="150.1" y1="115.2" x2="88.6" y2="115.2"/>
+	<line class="st5" x1="150.1" y1="175.5" x2="88.6" y2="175.5"/>
+	<ellipse transform="matrix(0.8437 -0.5369 0.5369 0.8437 -43.5313 58.0294)" class="st7" cx="77.9" cy="103.8" rx="2.8" ry="2.8"/>
+	<path class="st7" d="M66.3,105.5h11.5c1,0,1.8-0.8,1.8-1.8v0c0-1-0.8-1.8-1.8-1.8H66.3c-1,0-1.8,0.8-1.8,1.8v0
+		C64.5,104.7,65.3,105.5,66.3,105.5z"/>
+	<ellipse transform="matrix(0.8437 -0.5369 0.5369 0.8437 -58.0034 62.2437)" class="st7" cx="77.9" cy="130.7" rx="2.8" ry="2.8"/>
+	<path class="st7" d="M66.3,132.5h11.5c1,0,1.8-0.8,1.8-1.8v0c0-1-0.8-1.8-1.8-1.8H66.3c-1,0-1.8,0.8-1.8,1.8v0
+		C64.5,131.7,65.3,132.5,66.3,132.5z"/>
+	<ellipse transform="matrix(0.8437 -0.5369 0.5369 0.8437 -72.4755 66.458)" class="st7" cx="77.9" cy="157.7" rx="2.8" ry="2.8"/>
+	<path class="st7" d="M66.3,159.4h11.5c1,0,1.8-0.8,1.8-1.8v0c0-1-0.8-1.8-1.8-1.8H66.3c-1,0-1.8,0.8-1.8,1.8v0
+		C64.5,158.6,65.3,159.4,66.3,159.4z"/>
+	<ellipse transform="matrix(0.8437 -0.5369 0.5369 0.8437 -86.9476 70.6722)" class="st7" cx="77.9" cy="184.6" rx="2.8" ry="2.8"/>
+	<path class="st7" d="M66.3,186.4h11.5c1,0,1.8-0.8,1.8-1.8l0,0c0-1-0.8-1.8-1.8-1.8H66.3c-1,0-1.8,0.8-1.8,1.8l0,0
+		C64.5,185.6,65.3,186.4,66.3,186.4z"/>
+	
+		<ellipse transform="matrix(0.8437 -0.5369 0.5369 0.8437 -101.4197 74.8865)" class="st7" cx="77.9" cy="211.6" rx="2.8" ry="2.8"/>
+	<path class="st7" d="M66.3,213.4h11.5c1,0,1.8-0.8,1.8-1.8v0c0-1-0.8-1.8-1.8-1.8H66.3c-1,0-1.8,0.8-1.8,1.8v0
+		C64.5,212.6,65.3,213.4,66.3,213.4z"/>
+	<line class="st5" x1="150.1" y1="175.5" x2="88.6" y2="175.5"/>
+	<line class="st5" x1="150.1" y1="205.7" x2="88.6" y2="205.7"/>
+</g>
+</svg>

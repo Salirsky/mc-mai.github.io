@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:#FFFFFF;stroke:#FF8400;stroke-width:4;stroke-miterlimit:10;}
+	.st1{display:none;fill:#FFFFFF;stroke:#041B88;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;}
+	.st3{fill:#041B88;}
+	.st4{font-family:'Consolas';}
+	.st5{font-size:32px;}
+	.st6{fill:#FFFFFF;stroke:#041B88;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M139.1,177.1h60.4c2.8,0,5-2.2,5-5V73.8c0-2.8-2.2-5-5-5h-60.4c-2.8,0-5,2.2-5,5v98.3
+	C134.1,174.9,136.3,177.1,139.1,177.1z"/>
+<path class="st0" d="M95.2,204.2h60.4c2.8,0,5-2.2,5-5v-98.3c0-2.8-2.2-5-5-5H95.2c-2.8,0-5,2.2-5,5v98.3
+	C90.2,202,92.5,204.2,95.2,204.2z"/>
+<line class="st1" x1="0" y1="0" x2="250" y2="250"/>
+<line class="st1" x1="0" y1="250" x2="250" y2="0"/>
+<rect y="15.9" class="st2" width="250" height="25"/>
+<text transform="matrix(1 0 0 1 72.2184 37.9327)" class="st3 st4 st5">ПЕЧАТЬ</text>
+<path class="st0" d="M75.7,85.5"/>
+<path class="st0" d="M75.7,112.7"/>
+<path class="st0" d="M51.4,231.4h60.4c2.8,0,5-2.2,5-5v-98.3c0-2.8-2.2-5-5-5H51.4c-2.8,0-5,2.2-5,5v98.3
+	C46.4,229.1,48.6,231.4,51.4,231.4z"/>
+<path class="st0" d="M44.9,112.7"/>
+<path class="st0" d="M44.9,139.8"/>
+<path class="st6" d="M191.4,188.8H56.6c-12.5,0-22.6-10.1-22.6-22.6V127c0-12.5,10.1-22.6,22.6-22.6h134.8
+	c12.5,0,22.6,10.1,22.6,22.6v39.3C214,178.7,203.9,188.8,191.4,188.8z"/>
+<path class="st6" d="M156,62.5H92c-3.4,0-6.1,2.7-6.1,6.1v35.8h76.1V68.6C162.1,65.2,159.3,62.5,156,62.5z"/>
+<path class="st6" d="M162.1,154.9H85.9v68.3c0,3.4,2.7,6.1,6.1,6.1h64c3.4,0,6.1-2.7,6.1-6.1V154.9z"/>
+<path class="st6" d="M113,173.7"/>
+<path class="st6" d="M102.4,179.8"/>
+<line class="st6" x1="144.4" y1="193.6" x2="103.6" y2="193.6"/>
+<line class="st6" x1="144.4" y1="173.7" x2="103.6" y2="173.7"/>
+<line class="st6" x1="144.4" y1="213.6" x2="103.6" y2="213.6"/>
+<circle class="st6" cx="193" cy="126.6" r="4.5"/>
+</svg>

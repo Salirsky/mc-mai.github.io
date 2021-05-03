@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:#FFFFFF;stroke:#FF8400;stroke-width:4;stroke-miterlimit:10;}
+	.st1{display:none;fill:#FFFFFF;stroke:#041B88;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;}
+	.st3{fill:#041B88;}
+	.st4{font-family:'Consolas';}
+	.st5{font-size:32px;}
+	.st6{fill:#FFFFFF;stroke:#041B88;stroke-width:4;stroke-miterlimit:10;}
+	.st7{display:none;fill:none;stroke:#FF00FF;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<g id="Слой_1">
+	<path class="st0" d="M51.4,231.4h60.4c2.8,0,5-2.2,5-5v-98.3c0-2.8-2.2-5-5-5H51.4c-2.8,0-5,2.2-5,5v98.3
+		C46.4,229.1,48.6,231.4,51.4,231.4z"/>
+	<path class="st0" d="M139.1,177.1h60.4c2.8,0,5-2.2,5-5V73.8c0-2.8-2.2-5-5-5h-60.4c-2.8,0-5,2.2-5,5v98.3
+		C134.1,174.9,136.3,177.1,139.1,177.1z"/>
+	<path class="st0" d="M95.2,204.2h60.4c2.8,0,5-2.2,5-5v-98.3c0-2.8-2.2-5-5-5H95.2c-2.8,0-5,2.2-5,5v98.3
+		C90.2,202,92.5,204.2,95.2,204.2z"/>
+	<line class="st1" x1="0" y1="0" x2="250" y2="250"/>
+	<line class="st1" x1="0" y1="250" x2="250" y2="0"/>
+	<rect y="15.9" class="st2" width="250" height="25"/>
+	<text transform="matrix(1 0 0 1 19.4372 37.9327)" class="st3 st4 st5">СКАНИРОВАНИЕ</text>
+</g>
+<g id="Слой_2">
+	
+		<rect x="29.6" y="110.6" transform="matrix(0.8891 -0.4577 0.4577 0.8891 -40.9763 63.5325)" class="st6" width="162" height="11.5"/>
+	<path class="st6" d="M35.5,150h177.8v30.8c0,17.9-14.6,32.5-32.5,32.5H68c-17.9,0-32.5-14.6-32.5-32.5V150z"/>
+	<circle class="st7" cx="124" cy="150" r="88.9"/>
+</g>
+<g id="Слой_3">
+	<circle class="st6" cx="66.5" cy="181.6" r="4.5"/>
+	<line class="st6" x1="211" y1="144.5" x2="87" y2="144.5"/>
+</g>
+</svg>
