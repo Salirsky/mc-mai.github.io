@@ -22,7 +22,8 @@ main {
   
   /* background-color: rgba(180, 226, 255, 0.3);  /*Подкраска контейнера для всяческих манипуляций */
   box-sizing: border-box; /* делает так, что значение max-width задаёт ширину всего элемента включая размеры padding-ов. */
-  max-width: 60em;  
+  /* max-width: 60em;  */
+	max-width: 960px;
   
   margin-left: auto;
   margin-right: auto;
@@ -72,8 +73,8 @@ main {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 56.875rem;
-  /* width: 910px; */
+  /* width: 56.875rem; */
+   width: 910px; 
   height: 84px;
   border-radius: 42px;
 
