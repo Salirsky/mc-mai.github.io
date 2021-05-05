@@ -403,6 +403,10 @@ footer {
 
 @media screen and (max-width: 480px) { /* макетный размер для мобильных устройств – 320px, 480 px; */
 	.container {max-width: 100%;}
+	.p1 {  font-size: 20pt;}
+	.p2 {  font-size: 15pt;}
+	.p3 {  font-size: 11pt;}
+	
 }
 
 @media screen and (max-width: 1000px) {
