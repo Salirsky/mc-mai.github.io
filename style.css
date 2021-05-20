@@ -7,7 +7,7 @@ html {
 }
 body {
   margin: 0;
-  min-width: 990px; /* не позволит содержимому сжаться */
+  min-width: 960px; /* не позволит содержимому сжаться */
 }
 main {
   display: block;
@@ -24,11 +24,11 @@ main {
   /* background-color: rgba(180, 226, 255, 0.3);  /*Подкраска контейнера для всяческих манипуляций */
   box-sizing: border-box; /* делает так, что значение max-width задаёт ширину всего элемента включая размеры padding-ов. */
   /* max-width: 60em;  */
-	max-width: 990px;
+	max-width: 960px;
   
   margin: 0px auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
  
   position: relative;
    
@@ -159,7 +159,7 @@ main {
 
   background-color: white;
 
-  position:relative;
+  position: relative;
   flex-shrink: 0;
   flex-wrap: wrap;
   flex-basis: 150px; 
@@ -173,7 +173,8 @@ main {
   margin-left: auto;
   margin-right: auto;
 
-  padding: 10px 10px;
+  padding: 10px;
+ 
   border: none;
   border-style: none; 
 	border-width: none;
@@ -407,6 +408,10 @@ footer {
 	.p2 {  font-size: 15pt;}
 	.p3 {  font-size: 11pt;}
 	
+  img .serv {
+    width: 130px;
+    height: 130px; 
+  }
 }
 
 @media screen and (max-width: 1000px) {
