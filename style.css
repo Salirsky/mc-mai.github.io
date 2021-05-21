@@ -189,9 +189,9 @@ main {
 }
 
 .service img {
-  width: 140px;
-  height: 140px;
-  max-height: 140;
+  width: 130px;
+  height: 130px;
+  max-height: 130;
   margin-left: auto;
   margin-right: auto;
   position: absolute; /* абсолютное позиционирование*/
