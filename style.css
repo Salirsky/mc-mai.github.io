@@ -159,12 +159,12 @@ main {
 
   background-color: white;
 
-  position: relative;
+  position:relative;
   flex-shrink: 0;
   flex-wrap: wrap;
-  flex-basis: 150px;  /*базовый размер флекс-элемента по основной оси*/
+  flex-basis: 150px; 
   /*flex-basis: content;*/
-  box-sizing: border-box; /* Значения width/height задают высоту/ширину всего элемента. */
+  box-sizing: border-box;
   margin-bottom: 30px; 
 
   width: 150px;
@@ -173,12 +173,11 @@ main {
   margin-left: auto;
   margin-right: auto;
 
-  padding: 10px;
- 
+  padding: 10px 10px;
   border: none;
   border-style: none; 
-  border-width: none;
-  border-radius: 6px; /* 16px */
+	border-width: none;
+  border-radius: 3px; /* 16px */
   overflow: hidden; /* прячем всё, что находится за пределами области */
 
   -moz-box-shadow: 0 2px 7px 0 rgba(65, 65, 65, 0.65);
@@ -186,7 +185,6 @@ main {
   box-shadow: 0 2px 7px 0 rgba(65, 65, 65, 0.65);
   cursor: pointer;
   transition:  box-shadow 0.3s 	ease-in;
-  /*display: flex; /* делаем флекс-элемент флекс-контейнером для иконки */
 }
 
 .service img {
@@ -196,11 +194,11 @@ main {
   margin-left: auto;
   margin-right: auto;
   position: absolute; /* абсолютное позиционирование*/
- left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
- top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
- object-fit: cover; /* Вписываем фотографию в область */
- transition: all 0.3s ease;
-} 
+  left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
+  top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
+  object-fit: cover; /* Вписываем фотографию в область */
+  transition: all 0.3s ease;
+}
 
 .service img.second { /* вторая картинка полностью прозрачная */
   opacity:0;
