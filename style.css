@@ -191,9 +191,8 @@ main {
 
 .service img {
 
-  margin: 0;	
-  
-  width: 100%;
+  margin: auto;	
+  width: 97%;
   
   /*width: 130px;
   height: 130px;
@@ -202,6 +201,11 @@ main {
   margin-right: auto;
   display:block;*/
   position: absolute; /* абсолютное позиционирование*/
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	
   /*left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
   /*top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
