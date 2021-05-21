@@ -162,13 +162,13 @@ main {
   position: relative;
   flex-shrink: 0;
   flex-wrap: wrap;
-  flex-basis: 140px;  /*базовый размер флекс-элемента по основной оси*/
+  flex-basis: 150px;  /*базовый размер флекс-элемента по основной оси*/
   /*flex-basis: content;*/
   box-sizing: border-box; /* Значения width/height задают высоту/ширину всего элемента. */
   margin-bottom: 30px; 
 
-  width: 140px;
-  height: 140px; 
+  width: 150px;
+  height: 150px; 
   
   margin-left: auto;
   margin-right: auto;
@@ -178,7 +178,7 @@ main {
   border: none;
   border-style: none; 
   border-width: none;
-  border-radius: 5px; /* 16px */
+  border-radius: 6px; /* 16px */
   overflow: hidden; /* прячем всё, что находится за пределами области */
 
   -moz-box-shadow: 0 2px 7px 0 rgba(65, 65, 65, 0.65);
@@ -190,29 +190,17 @@ main {
 }
 
 .service img {
-
-  margin: auto;	
-  width: 97%;
-  
-  /*width: 130px;
-  height: 130px;
-  max-height: 130; 
+  width: 150px;
+  height: 150px;
+  max-height: 150;
   margin-left: auto;
   margin-right: auto;
-  display:block;*/
   position: absolute; /* абсолютное позиционирование*/
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-	
-  /*left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
-  /*top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
-	
-  object-fit: cover; /* Вписываем фотографию в область */
-  transition: all 0.3s ease;
-}
+ left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
+ top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
+ object-fit: cover; /* Вписываем фотографию в область */
+ transition: all 0.3s ease;
+} */
 
 .service img.second { /* вторая картинка полностью прозрачная */
   opacity:0;
