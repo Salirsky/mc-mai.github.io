@@ -186,7 +186,7 @@ main {
   box-shadow: 0 2px 7px 0 rgba(65, 65, 65, 0.65);
   cursor: pointer;
   transition:  box-shadow 0.3s 	ease-in;
-  display: flex; /* делаем флекс-элемент флекс-контейнером для иконки */
+  /*display: flex; /* делаем флекс-элемент флекс-контейнером для иконки */
 }
 
 .service img {
@@ -200,7 +200,7 @@ main {
  top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
  object-fit: cover; /* Вписываем фотографию в область */
  transition: all 0.3s ease;
-} */
+} 
 
 .service img.second { /* вторая картинка полностью прозрачная */
   opacity:0;
