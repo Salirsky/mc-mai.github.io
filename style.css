@@ -186,20 +186,25 @@ main {
   box-shadow: 0 2px 7px 0 rgba(65, 65, 65, 0.65);
   cursor: pointer;
   transition:  box-shadow 0.3s 	ease-in;
+	display: flex; /* делаем флекс-элемент флекс-контейнером для иконки */
 }
 
 .service img {
-	display:block;
-	width: 95%;
+
+  margin: auto;	
+  display:block;
+  width: 100%;
   
   /*width: 130px;
   height: 130px;
-  max-height: 130; */
+  max-height: 130; 
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
   position: absolute; /* абсолютное позиционирование*/
-  left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
-  top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
+	
+  /*left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
+  /*top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
+	
   object-fit: cover; /* Вписываем фотографию в область */
   transition: all 0.3s ease;
 }
@@ -411,10 +416,8 @@ footer {
 	.p2 {  font-size: 15pt;}
 	.p3 {  font-size: 11pt;}
 	
-  /*.service img {
-    width: 130px;
-    height: 130px;
-    max-height: 130; } */
+  service img {
+    width: 90%; } 
 
 }
 
