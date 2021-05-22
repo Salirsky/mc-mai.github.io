@@ -156,7 +156,7 @@ main {
 
 .service {
 
-  /*background-color: white;*/
+  background-color: white;
 
   position: relative;
   flex-shrink: 0;
@@ -421,7 +421,11 @@ footer {
 	.p3 {  font-size: 11pt;}
 	
   service img {
-    width: 90%; 
+    	 
+	max-width: 85%; 
+	padding: 5px;
+	margin: 0;
+	  
 	} 
 
 }
