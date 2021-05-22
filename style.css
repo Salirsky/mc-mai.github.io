@@ -188,15 +188,18 @@ main {
 }
 
 .service img {
-  width: 140px;
+	max-width:100%;
+	height:auto;
+	
+   /*width: 140px;
   height: 140px;
   max-height: 140;
   margin-left: auto;
   margin-right: auto;
   position: absolute; /* абсолютное позиционирование*/
-  left: 5px; /* выравниваем картинки по левому верхнему углу div-а*/
-  top: 5px; /* выравниваем картинки по левому верхнему углу div-а */  
-  object-fit: cover; /* Вписываем фотографию в область */
+  /*left: 5px; /* выравниваем картинки по левому верхнему углу div-а*/
+  /*top: 5px; /* выравниваем картинки по левому верхнему углу div-а */  
+ /* object-fit: cover; /* Вписываем фотографию в область */
   transition: all 0.3s ease;
 }
 
