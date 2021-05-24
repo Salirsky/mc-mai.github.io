@@ -7,7 +7,7 @@
 	.st1{display:none;fill:#FFFFFF;stroke:#041B88;stroke-width:2;stroke-miterlimit:10;}
 	.st2{fill:none;}
 	.st3{fill:#FF8400;}
-	.st4{font-family:'Roboto Condensed';}
+	.st4{font-family:'arial';}
 	.st5{font-size:32px;}
 </style>
 <path class="st0" d="M110.3,171.1H49.9c-2.8,0-5-2.2-5-5V67.8c0-2.8,2.2-5,5-5h60.4c2.8,0,5,2.2,5,5v98.3
