@@ -6,7 +6,7 @@
 	.st0{display:none;fill:#FFFFFF;stroke:#041B88;stroke-width:2;stroke-miterlimit:10;}
 	.st1{fill:none;}
 	.st2{fill:#FF8400;}
-	.st3{font-family:'Consolas';}
+	.st3{font-family: 'consolas', sans-serif;}
 	.st4{font-size:32px;}
 	.st5{fill:#FFFFFF;stroke:#FF8400;stroke-width:4;stroke-miterlimit:10;}
 	.st6{opacity:0.3;fill:none;stroke:#FF8400;stroke-width:2;stroke-miterlimit:10;}
