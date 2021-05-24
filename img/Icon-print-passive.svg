@@ -7,7 +7,7 @@
 	.st1{display:none;fill:#FFFFFF;stroke:#041B88;stroke-width:2;stroke-miterlimit:10;}
 	.st2{fill:none;}
 	.st3{fill:#041B88;}
-	.st4{font-family:'Consolas';}
+	.st4{font-family: 'consolas', sans-serif;}
 	.st5{font-size:32px;}
 	.st6{fill:#FFFFFF;stroke:#041B88;stroke-width:4;stroke-miterlimit:10;}
 </style>
