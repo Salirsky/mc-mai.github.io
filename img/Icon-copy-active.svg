@@ -21,7 +21,7 @@
 <line class="st1" x1="0" y1="0" x2="250" y2="250"/>
 <line class="st1" x1="0" y1="250" x2="250" y2="0"/>
 <rect y="15.9" class="st2" width="250" height="25"/>
-<text transform="matrix(0.9 0 0 1 28.234 37.9327)" class="st3 st4 st5">КОПИРОВАНИЕ</text>
+<text transform="matrix(0.9 0 0 1 25 37.9327)" class="st3 st4 st5">КОПИРОВАНИЕ</text>   <!--  transform="matrix(0.9 0 0 1 28.234 37.9327)" -->
 <path class="st0" d="M173.7,85.5"/>
 <path class="st0" d="M173.7,112.7"/>
 <line class="st0" x1="144.3" y1="137.1" x2="103.6" y2="137.1"/>
