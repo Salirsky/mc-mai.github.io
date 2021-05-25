@@ -1,4 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -164,7 +168,7 @@ main {
   flex-basis: 140px; 
   /*flex-basis: content;*/
   box-sizing: border-box;
-  margin-bottom: 30px; 
+  margin-bottom: 50px; 
 
   width: 140px;
   height: 140px; 
