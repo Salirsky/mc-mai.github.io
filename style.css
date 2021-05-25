@@ -431,6 +431,16 @@ footer {
 	margin: 0;
 	  
 	} 
+	
+	
+ .service {
+
+  flex-flow: column wrap;
+  
+  /*flex-basis: 140px; */
+  /*flex-basis: content;*/
+  
+}
 
 }
 
