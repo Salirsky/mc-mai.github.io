@@ -419,17 +419,16 @@ footer {
 
 
 @media screen and (max-width: 480px) { /* макетный размер для мобильных устройств – 320px, 480 px; */
+	
 	.container {max-width: 100%;}
 	.p1 {  font-size: 20pt;}
 	.p2 {  font-size: 15pt;}
 	.p3 {  font-size: 11pt;}
 	
-  service img {
-    	 
+  service img {    	 
 	max-width: 85%; 
 	padding: 5px;
-	margin: 0;
-	  
+	margin: 0;	  
 	} 
 	
 	
@@ -438,25 +437,23 @@ footer {
       height: 300px; }
 }
 
-}
-
-@media screen and (max-width: 1000px) {
-  /*.container .header {   
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 36.875rem; }  */
-
-
+@media screen and (max-width: 1000px)
+{
+ 
   footer {
     background-image: none; 
     }
-    .footerinf {padding-left: 0;
-                padding-right: 0;
-                margin: 0;}
+  .footerinf {
+	  padding-left: 0;
+          padding-right: 0;
+          margin: 0;
+	}
 	
-	.service {  flex-basis: 200px;     
-                  width: 200px;
-                  height: 200px; }
+.service {  
+	flex-basis: 200px;     
+        width: 200px;
+        height: 200px; 
+	}
 
 }
 
