@@ -460,6 +460,8 @@ footer {
 	.headerElement img {height: 85px;}
 	.headerElement p {font-size: 14pt;}
 	
+	.content, .contacts, .story p,  {max-width: 85%;}	
+	
 .service {  
 	flex-basis: 270px;     
         width: 270px;
@@ -467,7 +469,7 @@ footer {
 	border-radius: 12px;
 	}
 	
-	table p {font-size: 14pt;}	
+	table p {font-size: 16pt;}	
 	
 h1 {font-size: 38pt;}
 .p1 {font-size: 35pt;}
@@ -475,7 +477,7 @@ h1 {font-size: 38pt;}
 .p3 {font-size: 23pt;}	
 	
 .story p {column-count: 1;
-    	font-size: 23pt; }
+    	font-size: 25pt; }
 	
 h4 {font-size: 21pt;}
 	
