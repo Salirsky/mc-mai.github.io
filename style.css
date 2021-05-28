@@ -474,7 +474,7 @@ footer {
 	border-radius: 12px;
 	}
 	
-	table p {font-size: 16pt;}	
+	table  {font-size: 14pt;}	
 	
 	
 	
@@ -486,7 +486,8 @@ footer {
 
 .story   {max-width: 90%;}
 .story p {column-count: 1;
-    	font-size: 25pt; }
+    	font-size: 25pt;
+	max-width: 90%;}
 	#invisible {visibility: hidden}
 	
 
@@ -494,7 +495,8 @@ footer {
 .footerinf {flex-wrap: wrap;}
 	h4 {font-size: 19pt;}
 .footerinf1 p {font-size: 18pt;
-	max-width: 30%}
+	max-width: 30%;
+	width: 30%}
 	
 	
 
