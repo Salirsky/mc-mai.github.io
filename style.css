@@ -460,7 +460,7 @@ footer {
 	.headerElement img {height: 85px;}
 	.headerElement p {font-size: 14pt;}
 	
-	.content, .contacts, .story p,  {max-width: 85%;}	
+	.content, .contacts, .story p,  {max-width: 90%;}	
 	
 .service {  
 	flex-basis: 270px;     
