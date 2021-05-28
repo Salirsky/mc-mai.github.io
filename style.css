@@ -493,7 +493,8 @@ footer {
 
 .footerinf {flex-wrap: wrap;}
 	h4 {font-size: 19pt;}
-.footerinf1 p {font-size: 18pt;}
+.footerinf1 p {font-size: 18pt;
+	max-width: 30%}
 	
 	
 
