@@ -433,9 +433,9 @@ footer {
 	} 
 	
 	
-    .service {  flex-basis: 290px;     
-      width: 290px;
-      height: 290px; }
+    .service {  flex-basis: 270px;     
+      width: 270px;
+      height: 270px; }
 }
 
 @media screen and (max-width: 1000px)
@@ -451,9 +451,9 @@ footer {
 	}
 	
 .service {  
-	flex-basis: 290px;     
-        width: 290px;
-        height: 290px; 
+	flex-basis: 270px;     
+        width: 270px;
+        height: 270px; 
 	}
 
 }
