@@ -460,7 +460,12 @@ footer {
 	.headerElement img {height: 85px;}
 	.headerElement p {font-size: 14pt;}
 	
-	.content, .story p  {max-width: 90%;}	
+	.content  {max-width: 90%;}	
+	
+	h1 {font-size: 38pt;}
+.p1 {font-size: 35pt;}
+.p2 {font-size: 27pt;}
+.p3 {font-size: 23pt;}
 	
 .service {  
 	flex-basis: 270px;     
@@ -471,25 +476,29 @@ footer {
 	
 	table p {font-size: 16pt;}	
 	
-h1 {font-size: 38pt;}
-.p1 {font-size: 35pt;}
-.p2 {font-size: 27pt;}
-.p3 {font-size: 23pt;}	
 	
-.story p {column-count: 1;
-    	font-size: 25pt; }
 	
-h4 {font-size: 21pt;}
-	
-.footerinf1 p {font-size: 18pt;}
-	
-	.contacts {flex-direction: column;
+		.contacts {flex-direction: column;
 			max-width: 90%;}
 	.contact h2 {font-size: 24pt;}
 	.contact p {font-size: 21pt;}
-	.contact {max-width: 70%;}
+	.contact {max-width: 90%;}
+
+.story   {max-width: 90%;}
+.story p {column-count: 1;
+    	font-size: 25pt; }
+	#invisible {visibility: hidden}
+	
+
+
+.footerinf {flex-wrap: wrap;}
+	h4 {font-size: 19pt;}
+.footerinf1 p {font-size: 18pt;}
 	
 	
+
+	
+
 }
 
 
