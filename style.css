@@ -455,7 +455,7 @@ footer {
 
    width: 910px; 
   height: 100px;
-  border-radius: 50px;
+	border-radius: 50px; }
 	
 	.headerElement img {height: 85px;}
 	.headerElement p {font-size: 14pt;}
@@ -464,7 +464,6 @@ footer {
 	flex-basis: 270px;     
         width: 270px;
         height: 270px; 
-	
 	border-radius: 12px;
 	}
 	
