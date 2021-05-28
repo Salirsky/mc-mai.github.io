@@ -463,6 +463,13 @@ h1 {font-size: 40pt;}
 .p2 {font-size: 25pt;}
 .p3 {font-size: 21pt;}	
 	
+.story p {column-count: 1;
+    	font-size: 23pt; }
+	
+h4 {font-size: 21pt;}
+	
+.footerinf1 p {font-size: 18pt;}
+	
 }
 
 
