@@ -422,9 +422,9 @@ footer {
 @media screen and (max-width: 480px) { /* макетный размер для мобильных устройств – 320px, 480 px; */
 	
 	.container {max-width: 100%;}
-	.p1 {  font-size: 20pt;}
-	.p2 {  font-size: 15pt;}
-	.p3 {  font-size: 11pt;}
+	.p1 {  font-size: 22pt;}
+	.p2 {  font-size: 17pt;}
+	.p3 {  font-size: 13pt;}
 	
   service img {    	 
 	max-width: 85%; 
@@ -458,10 +458,10 @@ footer {
 	border-radius: 12px;
 	}
 	
-h1 {font-size: 40pt;}
-.p1 {font-size: 32pt;}
-.p2 {font-size: 25pt;}
-.p3 {font-size: 21pt;}	
+h1 {font-size: 38pt;}
+.p1 {font-size: 35pt;}
+.p2 {font-size: 27pt;}
+.p3 {font-size: 23pt;}	
 	
 .story p {column-count: 1;
     	font-size: 23pt; }
@@ -469,6 +469,11 @@ h1 {font-size: 40pt;}
 h4 {font-size: 21pt;}
 	
 .footerinf1 p {font-size: 18pt;}
+	
+	.contacts {flex-direction: column;}
+	.contact h2 {font-size: 30pt;}
+	.contact p {font-size: 23pt;}
+	
 	
 }
 
