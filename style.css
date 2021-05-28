@@ -450,6 +450,16 @@ footer {
           margin: 0;
 	}
 	
+	
+.container .header {  
+
+   width: 910px; 
+  height: 100px;
+  border-radius: 50px;
+	
+	.headerElement img {height: 85px;}
+	.headerElement p {font-size: 14pt;}
+	
 .service {  
 	flex-basis: 270px;     
         width: 270px;
@@ -473,6 +483,7 @@ h4 {font-size: 21pt;}
 	.contacts {flex-direction: column;}
 	.contact h2 {font-size: 30pt;}
 	.contact p {font-size: 23pt;}
+	.contact {max-width: 70%;}
 	
 	
 }
