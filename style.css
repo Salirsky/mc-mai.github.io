@@ -310,11 +310,13 @@ tr:hover { background-color: rgb(255, 217, 111);
     flex-shrink: 0;
     flex-wrap: wrap;
     box-sizing: border-box;
-    margin-bottom: 30px; 
+     /*margin-bottom: 30px;*/ 
     display: block;
     max-width: 30%;
-    margin-left: auto;
-    margin-right: auto;}
+   /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0;
+}
 
 
 h2 {color: #1A295E;}
@@ -488,11 +490,11 @@ footer {
 	max-width: 90%;}
 	#invisible {visibility: hidden}
 	
-.footerinf {flex-wrap: wrap;}
+.footerinf {flex-wrap: nowrap;}
 	h4 {font-size: 19pt;}
 .footerinf1 p {font-size: 18pt;
-	max-width: 30%;
-	width: 30%}
+	/*max-width: 30%;
+	width: 30%*/}
 	
 }
 
