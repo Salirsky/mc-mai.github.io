@@ -477,7 +477,8 @@ footer {
 	border-radius: 12px;
 	}
 	
-	table  {font-size: 25pt;}	
+	table  {font-size: 22pt;}
+	.addition {font-size: 20pt;}
 		
 	.contacts {flex-direction: column;
 			max-width: 90%;}
