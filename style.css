@@ -476,7 +476,7 @@ footer {
 	border-radius: 12px;
 	}
 	
-	table  {font-size: 14pt;}	
+	table  {font-size: 25pt;}	
 		
 	.contacts {flex-direction: column;
 			max-width: 90%;}
@@ -491,8 +491,8 @@ footer {
 	#invisible {visibility: hidden}
 	
 .footerinf {flex-wrap: nowrap;}
-	h4 {font-size: 19pt;}
-.footerinf1 p {font-size: 18pt;
+	h4 {font-size: 17pt;}
+.footerinf1 p {font-size: 15pt;
 	/*max-width: 30%;
 	width: 30%*/}
 	
