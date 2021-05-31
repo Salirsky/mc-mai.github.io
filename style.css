@@ -459,7 +459,8 @@ footer {
   height: 100px;
 	border-radius: 50px; }
 	
-	.headerElement img {height: 85px;}
+	.headerElement img {height: 90px;
+			margin-top: 5px}
 	.headerElement p {font-size: 14pt;}
 	
 	.content  {max-width: 90%;}	
