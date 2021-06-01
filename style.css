@@ -440,8 +440,7 @@ footer {
       height: 270px; }
 }
 
-@media screen and (max-width: 1000px)
-{
+@media screen and (max-width: 1000px){
  
   footer {
     background-image: none; 
@@ -469,6 +468,8 @@ footer {
 .p1 {font-size: 35pt;}
 .p2 {font-size: 27pt;}
 .p3 {font-size: 23pt;}
+	
+.separator {height: 100px;}
 	
 .service {  
 	flex-basis: 270px;     
