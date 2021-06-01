@@ -489,8 +489,7 @@ footer {
 	table  {font-size: 22pt;}
 	.addition {font-size: 20pt;}
 		
-	.contacts {flex-direction: column;
-			max-width: 90%;}
+	.contacts {flex-direction: column;}
 	.contact h2 {font-size: 24pt;}
 	.contact p {font-size: 21pt;}
 	.contact {max-width: 90%;}
