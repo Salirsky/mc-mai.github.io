@@ -474,8 +474,17 @@ footer {
 	flex-basis: 270px;     
         width: 270px;
         height: 270px; 
-	border-radius: 12px;
+	border-radius: 16px;
+	
+	-moz-box-shadow: 0 5px 10px 0 rgba(65, 65, 65, 0.65);
+  	-webkit-box-shadow: 0 5px 10px 0 rgba(65, 65, 65, 0.65);
+  	box-shadow: 0 5px 10px 0 rgba(65, 65, 65, 0.65);
 	}
+	
+	.service:hover {
+  	-moz-box-shadow: 0 0 14px 0 rgba(238, 73, 0, 1);
+  	-webkit-box-shadow: 0 0 14px 0 rgba(238, 73, 0, 1);
+	box-shadow: 0 0 14px 0 rgba(238, 73, 0, 1); }
 	
 	table  {font-size: 22pt;}
 	.addition {font-size: 20pt;}
