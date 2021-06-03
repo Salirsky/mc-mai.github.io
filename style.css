@@ -391,6 +391,33 @@ footer {
 
 .mail-dark:hover {color: #3152c9;}
 
+.icons {display: flex;
+	flex-direction: row;
+  justify-content: space-between;
+  
+/*flex-shrink: 0;
+  flex-wrap: wrap; 
+  width: 40%; */
+	
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.icon {
+  flex-basis: 60px; 
+  
+  box-sizing: border-box;
+  margin-bottom: 10px; 
+
+  width: 60px;
+  height: 60px; 
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 #copyright
 {  background-color: #323a5f; 
@@ -501,7 +528,8 @@ footer {
 	max-width: 90%;}
 	#invisible {visibility: hidden}
 	
-.footerinf {flex-wrap: nowrap;}
+.footerinf {flex-wrap: nowrap;
+		display: none;}
 	h4 {font-size: 17pt;}
 .footerinf1 p {font-size: 15pt;
 	/*max-width: 30%;
@@ -517,13 +545,14 @@ footer {
 }
 
 
-@media screen and (min-width: 1119px) { /* 1120 % ноут */
+@media screen and (min-width: 1001px) { /* 1120 % ноут */
   footer {
     background-size: 14rem, auto; 
     }
     .footerinf {padding-left: 7rem;}
     #copyright  { margin-left: 300px;
       margin-right: 300px;}
+.footerForMobile {display: none; }
 }
 
 @media screen and (min-width: 1250px) {
