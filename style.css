@@ -552,7 +552,7 @@ footer {
     .footerinf {padding-left: 7rem;}
     #copyright  { margin-left: 300px;
       margin-right: 300px;}
-.footerForMobile {display: none; }
+.footerForMobile {/*display: none;*/ }
 }
 
 @media screen and (min-width: 1250px) {
