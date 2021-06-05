@@ -436,7 +436,8 @@ footer {
   #copyright a:hover  {color:rgb(232, 238, 247);}
 
 
-.footerForMobile {visibility: hidden;}
+.footerForMobile {/*visibility: hidden; */
+			display: none;}
 
 
 #serv,
