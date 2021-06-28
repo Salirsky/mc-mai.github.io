@@ -325,8 +325,10 @@ tr:hover { background-color: rgb(255, 217, 111);
 
 h2 {color: #1A295E;}
 
-.contact p {color: #1A295E;
-  font-size: 14pt;}
+.contact p {
+  color: #1A295E;
+  font-size: 14pt;
+  line-height: 1.5;}
 
 
 abbr {text-decoration: none;}
@@ -358,6 +360,7 @@ abbr {text-decoration: none;}
     column-count: 2;
     column-width: 45%;
     font-size: 18pt; 
+	line-height: 1.5;
   }
 
 
@@ -382,6 +385,7 @@ footer {
 
 .footerinf1 { 
   margin: 15px;
+  line-height: 1.5;
 }
 .footerinf1 p { 
   color: #fffffd;
