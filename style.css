@@ -65,9 +65,13 @@ main {
 
 .menu {
   font-size: 14pt;
-  color: #1A295E;}
+  color: #1A295E;
+  transition: color 0.2s ease;}
 
-.menu:hover {color:rgba(238, 73, 0, 1);}
+.menu:hover {
+  color:rgba(238, 73, 0, 1);
+  transition: color 0.2s ease;
+}
 
 #p0-1, #p0-2 {font-size: 12pt;
   color: #202536;}
@@ -376,20 +380,31 @@ footer {
   padding-left: 5rem;  
 }
 
-.footerinf1 { margin: 15px;}
-
-.footerinf1 p { color: #fffffd;}
-
-.footerinf1 h4 { color: #fffeff;}
-
-
-.mail-light {color: #ebefff;}
-
-.mail-light:hover {color: #dce3ff;}
-
-.mail-dark {color: #0d2a91;}
-
-.mail-dark:hover {color: #3152c9;}
+.footerinf1 { 
+  margin: 15px;
+}
+.footerinf1 p { 
+  color: #fffffd;
+}
+.footerinf1 h4 {
+   color: #fffeff;
+  }
+.mail-light {
+  color: #ebefff;
+  transition: color 0.2s ease;
+}
+.mail-light:hover {
+  color: #dce3ff;
+  transition: color 0.2s ease;
+}
+.mail-dark {
+  color: #0d2a91;
+  transition: color 0.2s ease;
+}
+.mail-dark:hover {
+  color: #3152c9;
+  transition: color 0.2s ease;
+}
 
 .icons {display: flex;
 	flex-direction: row;
@@ -431,9 +446,16 @@ footer {
   margin: 0; /* Довести фон до конца страницы */
   }
 
-  #copyright a {color: #d0d9fd;}
 
-  #copyright a:hover  {color:rgb(232, 238, 247);}
+  #copyright a {
+    color: #d0d9fd;
+    transition: color 0.2s ease;
+}
+
+  #copyright a:hover  {
+    color:rgb(232, 238, 247);
+    transition: color 0.2s ease;
+  }
 
 
 .footerForMobile {/*visibility: hidden; */
