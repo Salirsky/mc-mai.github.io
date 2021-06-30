@@ -342,7 +342,6 @@ abbr {text-decoration: none;}
 
 
 .history {
-
   background-color: #f4f3f8;
   display: flex;
   flex-flow: row nowrap;
@@ -350,18 +349,22 @@ abbr {text-decoration: none;}
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;}
+  padding-top: 50px;
+}
 
     
-.story {display: inline-flex;}
+.story {
+	display: inline-flex;
+}
 
 
-.story  p {color: #1A295E;
+.story  p {
+	color: #1A295E;
     column-count: 2;
     column-width: 45%;
     font-size: 18pt; 
 	line-height: 1.5;
-  }
+}
 
 
 
