@@ -356,9 +356,10 @@ abbr {text-decoration: none;}
 .story  p {
     color: #1A295E;
     column-count: 2;
-    column-width: 45%;
     font-size: 19pt; 
     text-align: left; 
+    line-height: 1.2;
+    column-gap: 43px;
    }
 
 
