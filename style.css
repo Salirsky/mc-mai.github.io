@@ -345,26 +345,21 @@ abbr {text-decoration: none;}
   background-color: #f4f3f8;
   display: flex;
   flex-flow: row nowrap;
-  
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
   padding-top: 50px;
-}
-
-    
+  padding-bottom: 50px;
+}  
 .story {
-	display: inline-flex;
-}
-
-
+  display: inline-flex;
+  }
 .story  p {
-	color: #1A295E;
+    color: #1A295E;
     column-count: 2;
     column-width: 45%;
-    font-size: 18pt; 
-	line-height: 1.5;
-}
+    font-size: 19pt; 
+    text-align: left; 
+   }
 
 
 
