@@ -549,7 +549,7 @@ footer {
 	.contact p {font-size: 21pt;}
 	.contact {max-width: 90%;}
 
-.story   {max-width: 90%;}
+.story   {max-width: 100%;}
 .story p {column-count: 1;
     	font-size: 25pt;
 	max-width: 90%;}
