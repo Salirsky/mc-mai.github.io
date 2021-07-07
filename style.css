@@ -550,10 +550,13 @@ footer {
 	.contact {max-width: 90%;}
 
 .story   {max-width: 100%;}
-.story p {column-count: 1;
+.story p {
+	column-count: 1;
     	font-size: 25pt;
-	max-width: 90%;}
-	#invisible {visibility: hidden}
+	max-width: 90%;
+	}
+	
+#invisible {visibility: hidden}
 	
 .footerinf {flex-wrap: nowrap;
 		display: none;}
