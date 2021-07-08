@@ -420,10 +420,10 @@ footer {
 .icons {
   display: flex;
 	flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0 auto;
   padding-top: 10px;
-  max-width: 200px;
+  /*max-width: 200px; */
 }
 
 .icon {
@@ -431,16 +431,15 @@ footer {
   box-sizing: border-box;
   margin-bottom: 10px; 
   margin-top: 10px;
-  width: 60px;
-  height: 60px; 
+  width: 160px;
+  height: 160px; 
 
   border-radius: 50%;
-  box-shadow: 0px 1px 5px 1px rgba(92%, 93%, 97%, 0.3);
+  box-shadow: 0px 1px 6px 1px rgba(92%, 93%, 97%, 0.3);
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
   display: flex;
-
 }
 
 
@@ -665,9 +664,9 @@ h1 {font-size: 38pt;}
   .email-1,
   .email-2,
   .pfone-1,
-  .pfone-2 {font-size: 15pt;}
+  .pfone-2 {font-size: 30pt;}
 
-  #copyright {font-size: 15pt;}
+  #copyright {font-size: 30pt;}
 	
 #serv,
 #cont,
