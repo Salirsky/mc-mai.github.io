@@ -393,22 +393,22 @@ footer {
 .mail-light {
   color: #d0d9fd;
   transition: color 0.2s ease;
-  
+  text-decoration: none;
 }
 .mail-light:hover {
   color: rgb(232, 238, 247);
   transition: color 0.2s ease;
-  
+  text-decoration: none;
 }
 .mail-dark {
   color: #0d2a91;
   transition: color 0.2s ease;
-  
+  text-decoration: none;
 }
 .mail-dark:hover {
   color: #3152c9;
   transition: color 0.2s ease;
-  
+  text-decoration: none;
 }
 
 
