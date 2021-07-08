@@ -376,8 +376,8 @@ footer {
 .footerinf {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
-  padding-left: 5rem;  
+  justify-content: space-around;
+  padding-left: 0px;  
 }
 
 .footerinf1 { 
@@ -450,7 +450,7 @@ footer {
   /*top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); */
-	object-fit: cover; /* Вписываем фотографию в область */
+  object-fit: cover; /* Вписываем фотографию в область */
   transition: all 0.3s ease;
   
 }
@@ -493,36 +493,9 @@ footer {
  {
   display: flex;
   justify-content: center;
-    
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #rectangle {
   width: 200px;
@@ -695,14 +668,14 @@ h1 {font-size: 38pt;}
     .footerinf {padding-left: 7rem;}
     #copyright  { margin-left: 300px;
       margin-right: 300px;}
-.footerForMobile {display: none; }
+	.footerForMobile {display: none; }
 }
 
 @media screen and (min-width: 1250px) {
   footer {
     background-size: 16rem, auto; 
     }
-    .footerinf {padding-left: 6rem;}
+    
 
 }
 
@@ -710,19 +683,19 @@ h1 {font-size: 38pt;}
   footer {
     background-size: 18rem, auto; 
     }
-    .footerinf {padding-left: 5rem;}
+    
 }
 
 @media screen and (min-width: 1500px) {
   footer {
     background-size: 19rem, auto; 
     }
-    .footerinf {padding-left: 4rem;}
+    
 }
 
 @media screen and (min-width: 1600px) {
   footer {
     background-size: 20rem, auto; 
     }
-    .footerinf {padding-left: 3rem;}
+    
 }
