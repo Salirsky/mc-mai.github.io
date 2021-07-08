@@ -419,7 +419,7 @@ footer {
 
 .icons {
   display: flex;
-	flex-direction: row;
+  flex-direction: row;
   justify-content: space-evenly;
   margin: 0 auto;
   padding-top: 20px;
@@ -626,7 +626,7 @@ h1 {font-size: 38pt;}
     display: none;
   }
 
-	h4 {
+   h4 {
     font-size: 17pt;
   }
   .footerinf1 p {font-size: 15pt;
