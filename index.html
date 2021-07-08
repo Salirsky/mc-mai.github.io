@@ -11,7 +11,7 @@
 
   <title>Множительный центр МАИ</title>
   <link rel="stylesheet" href="style.css" type="text/css"/>
-  <script src="scripts/jquery-3.5.1.min.js"></script>  
+   <script src="scripts/jquery-3.5.1.min.js"></script>  
 </head>
 <body>
 
@@ -39,8 +39,7 @@
 
 <div class="headerElement"><a href="https://mai.ru/" target="blank"><img src="img/LOGO-MAI.svg" height="70px"/></a> </div>
 
-    </div>
-  </div> 
+</div></div> 
 
 <div class="content">
 <p class="p1">Добро пожаловать на сайт множительного центра <br>
@@ -605,7 +604,7 @@
   <div class="contact" ><h2>Как сделать заказ?</h2>
     <p>Позвонив по одному из следующих номеров: <br>
       ● <a class="mail-dark" href="tel:+74991581280"> 8 (499) 158-12-80 </a><br> (Доступен с ПН по ПТ с 9:00 до 17:00);<br>
-      ● <a class="mail-dark" href="tel:+79645813191"> 8 (964) 581-31-91 </a><br>  (Доступен с 9:00 до 20:00).</p></div>
+    ● <a class="mail-dark" href="tel:+79645813191"> 8 (964) 581-31-91 </a><br>  (Доступен с 9:00 до 20:00).</p></div>
 
 <div class="contact" ><h2>Как забрать заказ?</h2>
   <p>Забрать заказ можно в 
@@ -641,11 +640,10 @@
       <br> <br> <br>
       В настоящее время центр располагает самым современным оборудованием, имеет стабильную, хорошо зарекомендовавшую себя систему сервисного обслуживания техники, изготовленной всемирно известными фирмами, такими как RICOH, Hewlett Packard и др. Коллектив <abbr title="Множительный центр">МЦ</abbr> отличается высоким рофессионализмом, доброжелательным отношением к заказчикам, вниманием к их нуждам, быстротой выполнения заказов. Мы всегда идем навстречу интересам наших заказчиков. <br> <br>
 
-      Здесь вы можете ознакомиться с перечнем услуг, оказываемых нашим центром, и расценками на них.</p>
+      Здесь вы можете ознакомиться с перечнем услуг, оказываемых нашим центром, и расценками на них.</p><br>
     </div> 
   </div> 
 </section>
-
 <footer> 
 <div class="container"> 
 <div class="footerinf">
@@ -670,17 +668,65 @@
 </div>
   
   
-  <div class="footerForMobile" class="icons">
-  <div class="icon"  class="location"><img class="first" src="icon/footer/location.svg" alt="location">
-                                      <img class="second" src="icon/footer/location-hover.svg" alt="location"></div>
-  <div class="icon"  class="email"><img class="first" src="icon/footer/email.svg" alt="email">
-                                      <img class="second" src="icon/footer/email-hover.svg" alt="email"></div>
-  <div class="icon"  class="pfone"><img class="first" src="icon/footer/pfone.svg" alt="pfone">
-                                      <img class="second" src="icon/footer/pfone-hover.svg" alt="pfone"></div>
+  <div class="footerForMobile"> 
+    <div class="container">
+      <div class="icons">
+        
+        <div class="icon"  class="email" id="emailIcon"><img class="first" src="icon/footer/email.svg" alt="email">
+                                         <img class="second" src="icon/footer/email-hover.svg" alt="location">
+        </div>
 
+        <div class="icon"  class="location">
+          <a href="#cont">
+            <img class="first" src="icon/footer/location.svg" alt="location"> 
+            <img class="second" src="icon/footer/location-hover.svg" alt="location"> 
+          </a>
+        </div>
+
+        <div class="icon"  class="pfone" id="pfoneIcon"><img class="first" src="icon/footer/pfone.svg" alt="pfone">
+                                          <img class="second" src="icon/footer/pfone-hover.svg" alt="pfone"> 
+        </div>
+      </div>
+
+      <style>
+        .hideElement {display: none; }
+      </style>
+
+      <div id="email" class="hideElement" class="footer-for-mobile-information">
+        <p class="email-1"><a class="mail-light" href="mailto:mcmai@mai.ru">mcmai@mai.ru</a></p>
+        <p class="email-2"><a class="mail-light" href="mailto:mcmai@mail.ru">mcmai@mail.ru</a></p>
+      </div>
+
+      <div id="pfone" class="hideElement" class="footer-for-mobile-information">
+        <p class="pfone-1"><a class="mail-light" href="tel:+74991581280">8 (499) 158-12-80</a></p>
+        <p class="pfone-2"><a class="mail-light" href="tel:+79645813191">8 (964) 581-31-91</a></p>
+      </div>
+
+    </div>
 </div>
 
-<hr noshade width="142em" color="#5c6488" >
+
+
+<script>
+  emailIcon.onclick = function(){
+    email.classList.toggle('hideElement') ; 
+    pfone.classList.add ('hideElement');
+
+ }
+
+ pfoneIcon.onclick = function(){
+  pfone.classList.toggle('hideElement');
+  email.classList.add ('hideElement') ;  
+
+ }
+ </script>
+
+
+
+
+<!---
+<hr noshade width="142em" color="#5c6488" > --->
+<div id="rectangle"></div>
 <p id="copyright">Created by <a href="https://vk.com/salirsky">Salirsky</a> &copy; </p>
 </div> </footer>
 </body>
