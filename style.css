@@ -666,6 +666,16 @@ h1 {font-size: 38pt;}
   .pfone-1,
   .pfone-2 {font-size: 30pt;}
 
+#rectangle {
+  width: 500px;
+  height: 1px;
+  background: #5c6488;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+	
+	
   #copyright {font-size: 25pt;}
 	
 #serv,
