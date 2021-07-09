@@ -682,7 +682,7 @@ h1 {font-size: 38pt;}
     color: #1A295E;
     /*column-count: 2;*/
     /*column-gap: 43px; */
-    font-size: 19pt; 
+    font-size: 25pt; 
     text-align: left; 
     line-height: 1.2;
     display: block;
@@ -698,21 +698,6 @@ h1 {font-size: 38pt;}
   display: none;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	#invisible {visibility: hidden}
 
   footer {
