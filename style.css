@@ -147,6 +147,10 @@ main {
 
 .information {   background-color: #f4f3f8;} 
 
+
+/* ---------------------------------------- SERVICES -------------------------------------- */
+
+
 .services {
   display: flex;
   justify-content: space-between;
@@ -260,9 +264,9 @@ main {
 
 .service:active {
 
-  -moz-box-shadow: inset 0 0 6px rgba(65, 65, 65, 0.65); 
-  -webkit-box-shadow: inset 0 0 6px rgba(65, 65, 65, 0.65);
-  box-shadow: inset 0 0 6px rgba(65, 65, 65, 0.65);
+  -moz-box-shadow: inset 0 0 6px rgba(50, 58, 95, 0.7); 
+  -webkit-box-shadow: inset 0 0 6px rgba(50, 58, 95, 0.7);
+  box-shadow: inset 0 0 6px rgba(50, 58, 95, 0.7);
   transition:  box-shadow 0.2s 	ease-in;
 
   border: none;
@@ -297,6 +301,8 @@ tr:hover { background-color: rgb(255, 217, 111);
   background-repeat: repeat;
   
 } */
+
+/* ---------------------------------------- CONTACTS -------------------------------------- */
 
 .contacts {display: flex;
   justify-content: space-between;
@@ -337,38 +343,66 @@ abbr {text-decoration: none;}
   margin-right: auto;
   padding-bottom: 50px;
   }  
-
+/* ---------------------------------------- HISTORY -------------------------------------- */
 
 .history {
   background-color: #f4f3f8;
-  display: flex;
   width: 100%;
   margin-bottom: 0;
   padding-top: 50px;
   padding-bottom: 50px;
 }  
 .story {
-  display: inline-flex;
-  }
-.story  p {
+ /* display: inline-flex;*/
+  display: flex;
+  /*flex-flow: column wrap; */
+  height: 740px;
+  flex-direction: row;
+  gap: 20px;
+      }
+
+.story-column-1 {
+  display: flex;
+  flex-direction: column;
+}
+.story-column-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.story-p {
     color: #1A295E;
-    column-count: 2;
+    /*column-count: 2;*/
     font-size: 19pt; 
     text-align: left; 
     line-height: 1.2;
-    column-gap: 43px;
+    /*column-gap: 43px; */
+    display: block;
+    width: 100%;
    }
 
+.img-plane {  
+  position: relative;
+  
+}   
+.story-plane {
+  width: 600px;
+  position:absolute;
+  left: -200px;
+  z-index: 0;
+
+}
 
 
 /* ---------------------------------------- FOOTER -------------------------------------- */
 
 footer {
   background-color: #323a5f; 
-  background-image: url(img/plane-original-0.jpg);
+  /*background-image: url(img/plane-original-0.jpg); 
   background-repeat: no-repeat;
   background-position: left bottom;
-  background-size: 18rem, auto; /* 18rem - для ноута */
+  background-size: 18rem, auto; */
   margin-top: 0;
   }   
 
@@ -376,12 +410,12 @@ footer {
 .footerinf {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-left: 0px;  
 }
 
 .footerinf1 { 
-  margin: 15px;
+  margin: 0px;
   line-height: 1.5;
 }
 .footerinf1 p { 
@@ -594,9 +628,9 @@ h1 {font-size: 38pt;}
         height: 270px; 
 	border-radius: 16px;
 	
-	-moz-box-shadow: 0 5px 10px 0 rgba(65, 65, 65, 0.65);
-  	-webkit-box-shadow: 0 5px 10px 0 rgba(65, 65, 65, 0.65);
-  	box-shadow: 0 5px 10px 0 rgba(65, 65, 65, 0.65);
+	-moz-box-shadow: 0 5px 10px 0 rgba(50, 58, 95, 0.7);
+  	-webkit-box-shadow: 0 5px 10px 0 rgba(50, 58, 95, 0.7);
+  	box-shadow: 0 5px 10px 0 rgba(50, 58, 95, 0.7);
 	}
 	
 	.service:hover {
@@ -611,12 +645,74 @@ h1 {font-size: 38pt;}
 	.contact p {font-size: 21pt;}
 	.contact {max-width: 90%;}
 
-
+/*
 .story p {
   column-count: 1;
   font-size: 25pt;
 	max-width: 90%;
+} */
+
+
+
+.history {
+  background-color: #f4f3f8;
+  width: 100%;
+  margin-bottom: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}  
+.story {
+
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  gap: 20px;
+      }
+
+.story-column-1 {
+  display: flex;
+  flex-direction: column;
 }
+.story-column-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.story-p {
+    color: #1A295E;
+    /*column-count: 2;*/
+    /*column-gap: 43px; */
+    font-size: 19pt; 
+    text-align: left; 
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    font-size: 25pt;
+	  max-width: 90%;
+   }
+
+.img-plane {  
+  display: none;
+  }   
+.story-plane {
+  display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	#invisible {visibility: hidden}
 
   footer {
