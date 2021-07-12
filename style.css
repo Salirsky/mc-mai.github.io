@@ -280,17 +280,16 @@ table {
   font-size: 15pt; 
   color: #050e2c;
   line-height: 1.3;
-  font-family: 'PT Sans', sans-serif;
   }
   
 .addition {
   font-size: 15pt;
   color: #050e2c;
   line-height: 1.3;
-  font-family: 'PT Sans', sans-serif;}
+  }
 
-.tr-ch {background-color:  #fff; /* #ebedf3; */} 
-.tr-nch {background-color: #f4f3f8;/* #dce0ec; */} 
+.tr-ch {background-color:  #fff; } 
+.tr-nch {background-color: #f4f3f8;} 
 
 
 th, td {padding: 10px 15px;}
