@@ -292,6 +292,8 @@ tr:hover { background-color: rgb(255, 217, 111);
   cursor: pointer;
 }
 
+.addition {font-size: 15pt;}
+
 .invisible {visibility: hidden}
 
 /*
