@@ -121,6 +121,11 @@ main {
   font-size: 18pt;
 }
 
+.p4 {
+  color: #F25700;
+  font-size: 18pt;
+}
+
 .separator {
   background-color: #041B88;
   height: 70px;
