@@ -1,11 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400&family=Lora:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   padding-bottom: 0;
   margin-bottom: 0;
+  font-family: 'Lora', serif;
+  font-weight: 400;
 }
 body {
   margin: 0;
@@ -14,6 +22,8 @@ body {
 main {
   display: block;
 }
+
+p {color: #1A295E;}
 
 
 
@@ -133,7 +143,7 @@ main {
   color: #E4E9FF;
   text-align: center;
   margin: 0;
-  position: relative   /* Сделайте контейнер относительно позиционированным (position: relative), что превратит его в контейнер для абсолютно позиционированных элементов. */
+  position: relative;   /* Сделайте контейнер относительно позиционированным (position: relative), что превратит его в контейнер для абсолютно позиционированных элементов. */
 }
 
 .separator .Servises-sep {margin: 0}
@@ -284,17 +294,18 @@ table {
   margin: auto;
   font-size: 15pt; 
   color: #050e2c;
-  line-height: 1.3;
+  line-height: 1.5;
+  /*font-family: 'PT Sans', sans-serif; */
   }
-  
+   
 .addition {
   font-size: 15pt;
   color: #050e2c;
-  line-height: 1.3;
-  }
+  line-height: 1.5;
+ /* font-family: 'PT Sans', sans-serif; */}
 
-.tr-ch {background-color:  #fff; } 
-.tr-nch {background-color: #f4f3f8;} 
+.tr-ch {background-color:  #fff;/* #ebedf3; */} 
+.tr-nch {background-color: #f4f3f8;/* #dce0ec; */} 
 
 
 th, td {padding: 10px 15px;}
@@ -306,7 +317,7 @@ tr:hover { background-color: rgb(255, 217, 111);
 
 
 
-.invisible {visibility: hidden}
+.invisible {visibility: hidden;}
 
 /*
 .contacts-backgound {
@@ -318,7 +329,9 @@ tr:hover { background-color: rgb(255, 217, 111);
 
 /* ---------------------------------------- CONTACTS -------------------------------------- */
 
-.contacts {display: flex;
+.contacts {
+  
+  display: flex;
   justify-content: space-between;
   flex-shrink: 0;
   flex-wrap: wrap; 
@@ -394,6 +407,8 @@ abbr {text-decoration: none;}
     /*column-gap: 43px; */
     display: block;
     width: 100%;
+    font-family: 'Times New Roman', serif;
+    
    }
 
 .img-plane {  
@@ -417,7 +432,7 @@ footer {
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 18rem, auto; */
-  margin-top: 0;
+  margin-top: 0px;
   }   
 
 
@@ -455,6 +470,17 @@ footer {
 }
 .mail-dark:hover {
   color: #3152c9;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+.link-dark {
+  color: #0d2a91;
+  transition: color 0.2s ease;
+  text-decoration: none;
+  font-size: 14pt;
+}
+.link-dark:hover {
+  color: rgba(238, 73, 0, 1);
   transition: color 0.2s ease;
   text-decoration: none;
 }
@@ -578,6 +604,10 @@ footer {
     transition: color 0.2s ease;
   }
 
+
+
+
+
 #serv,
 #cont,
 #history {
@@ -693,7 +723,7 @@ h1 {font-size: 38pt;}
     color: #1A295E;
     /*column-count: 2;*/
     /*column-gap: 43px; */
-    font-size: 25pt; 
+    font-size: 19pt; 
     text-align: left; 
     line-height: 1.2;
     display: block;
@@ -709,6 +739,7 @@ h1 {font-size: 38pt;}
   display: none;
 
 }
+
 	#invisible {visibility: hidden}
 
   footer {
@@ -741,7 +772,7 @@ h1 {font-size: 38pt;}
 }
 	
 	
-  #copyright {font-size: 20pt;}
+  #copyright {font-size: 25pt;}
 	
 #serv,
 #cont,
