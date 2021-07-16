@@ -116,7 +116,8 @@ a:hover { transition: color 0.3s ease;}
   margin-right: auto;
 }
 
-
+.summer-mode-light {color: #F25700;}
+.summer-mode-dark {color: rgba(100%, 85%, 44%, 1);}
 .p1 {
   text-align: center;
   color: #1A295E;
@@ -137,6 +138,7 @@ a:hover { transition: color 0.3s ease;}
 .p4 {
   color: #F25700;
   font-size: 18pt;
+  line-height: 1.5;
 }
 
 .separator {
