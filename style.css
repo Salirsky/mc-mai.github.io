@@ -395,11 +395,11 @@ abbr {text-decoration: none;}
       }
 
 .story-column-1 {
-  display: flex;
+/*   display: flex; */
   flex-direction: column;
 }
 .story-column-2 {
-  display: flex;
+/*   display: flex; */
   flex-direction: column;
 }
 
