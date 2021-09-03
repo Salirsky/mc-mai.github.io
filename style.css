@@ -651,17 +651,17 @@ footer {
 .container .header {  
   width: 910px; 
   height: 100px;
-	border-radius: 50px; 
+  border-radius: 50px; 
 }
 .headerElement img {
   height: 90px;
-	margin-top: 5px
+  margin-top: 5px
 }
 .headerElement p {
   font-size: 14pt;
 }
-	.content  {
-    max-width: 90%;
+.content  {
+  max-width: 90%;
   }	
 h1 {font-size: 38pt;}
 .p1 {font-size: 35pt;}
@@ -700,8 +700,11 @@ h1 {font-size: 38pt;}
   font-size: 25pt;
 	max-width: 90%;
 } */
-
-
+.contact-h2 {
+font-size: 27px;}
+	
+.contact-p {
+font-size: 24px;}
 
 .history {
   background-color: #f4f3f8;
