@@ -516,7 +516,7 @@ footer {
 
   border-radius: 50%;
 /*   box-shadow: 0px 0px 1px 2px rgba(92%, 93%, 97%, 0.3); */
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Убрать подкрашивание ссылки в синий цвет  */
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
@@ -548,7 +548,7 @@ footer {
   -webkit-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  /* Убрать подкрашивание ссылки в синий цвет  */
 }
 
 .icon:hover img.first, .icon img.first:hover, .icon img.first:active { /* а первая при наведении курсора становится прозрачной */
