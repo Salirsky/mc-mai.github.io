@@ -583,22 +583,14 @@ footer {
   margin: 0; /* Довести фон до конца страницы */
   transition: color 0.2s ease;
   }
-
-
   #copyright a {
     color: #d0d9fd;
     transition: color 0.2s ease;
 }
-
   #copyright a:hover  {
     color:rgb(232, 238, 247);
     transition: color 0.2s ease;
   }
-
-
-
-
-
 #serv,
 #cont,
 #history {
@@ -606,8 +598,6 @@ footer {
     margin-top: -84px;
     background-clip: padding-box;
 }
-
-
 @media screen and (max-width: 480px) { /* макетный размер для мобильных устройств – 320px, 480 px; */
 	
 	.container {max-width: 100%;}
@@ -615,7 +605,7 @@ footer {
 	.p2 {  font-size: 17pt;}
 	.p3 {  font-size: 13pt;}
 	
-  service img {    	 
+service img {    	 
 	max-width: 85%; 
 	padding: 5px;
 	margin: 0;	  
@@ -628,9 +618,7 @@ footer {
     height: 270px; 
   }
 }
-
 @media screen and (max-width: 1000px){
- 	
 .container .header {  
   width: 910px; 
   height: 100px;
