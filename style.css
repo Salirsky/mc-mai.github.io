@@ -22,41 +22,26 @@ body {
 main {
   display: block;
 }
-
 p {color: #1A295E;}
-
 a { transition: color 0.3s ease; }
 a:hover { transition: color 0.3s ease;}
 
-
-
-
 /* ---------------------------------------- HEADER -------------------------------------- */
-
-
 .container {
-  
-  /* background-color: rgba(180, 226, 255, 0.3);  /*Подкраска контейнера для всяческих манипуляций */
   box-sizing: border-box; /* делает так, что значение max-width задаёт ширину всего элемента включая размеры padding-ов. */
   /* max-width: 60em;  */
-	max-width: 960px;
-  
+  max-width: 960px;
   margin: 0px auto;
   padding-left: 10px;
   padding-right: 10px;
- 
   position: relative;
-   
  }
-                                       
-
 .main {
   background-image: url(img/Plane-background-inv.jpg); 
   background-position: center; 
   background-size: cover;
   margin: 0;
   padding-bottom: 20px;}
-
 .headerElements { 
   display: flex;
   flex-wrap: nowrap;
@@ -105,9 +90,8 @@ a:hover { transition: color 0.3s ease;}
   text-align: center;
 
   position: fixed; 
-  z-index: 100; /* чтобы при позиционировании шапка была над остальными элементами */
+  z-index: 100; 
 }
-
                                        /* ---------------------------------------- HEADER -------------------------------------- */
 .content {
   padding-top: 90px;
@@ -115,7 +99,6 @@ a:hover { transition: color 0.3s ease;}
   margin-left: auto;
   margin-right: auto;
 }
-
 .summer-mode-light {color: #F25700;}
 .summer-mode-dark {color: rgba(100%, 85%, 44%, 1);}
 .p1 {
